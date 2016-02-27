@@ -41,4 +41,7 @@ curl -u $API_USERNAME:$API_PASSWORD -H "Content-Type: application/json" -X PUT -
 
 # Delete requests
 curl -u $API_USERNAME:$API_PASSWORD -H "Content-Type: application/json" -X DELETE http://localhost:9292/api/v1/bookings/:id
+
+# Get swagger documentation
+curl -u $API_USERNAME:$API_PASSWORD http://localhost:9292/api/v1/swagger_doc
 ```
