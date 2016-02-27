@@ -5,7 +5,9 @@ require 'bundler'
 
 %w(
 grape
+grape-swagger
 sinatra
+active_support/core_ext/string
 ).each do |dep|
   require dep
 end

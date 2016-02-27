@@ -81,4 +81,5 @@ class API < Grape::API
 
   end
 
+  add_swagger_documentation
 end
