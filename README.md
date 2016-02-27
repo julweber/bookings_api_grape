@@ -14,8 +14,13 @@ export API_PASSWORD=admin
 rackup
 ```
 
+## Execute Testsuite
+```
+bundle exec rspec
+```
 
-## API examples
+
+## API Query Examples
 
 ```
 export API_USERNAME=admin
