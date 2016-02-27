@@ -3,7 +3,7 @@ class API < Grape::API
 
   prefix 'api'
   version API_VERSION, using: :path
-  format :json
+#  format :json
 
   get :hello do
     { hello: 'world' }
@@ -81,5 +81,5 @@ class API < Grape::API
 
   end
 
-  add_swagger_documentation
+  add_swagger_documentation api_version: 'v1'
 end
